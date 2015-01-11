@@ -42,7 +42,7 @@ if rv == 'OK':
 	print "Mailboxes:"
 	print mailboxes
 	
-rv, data = M.elect(EMAIL_FOLDER)
+rv, data = M.select(EMAIL_FOLDER)
 if rv == 'OK':
 	print "processing mailbox... \n"
 	process_mailbx(M)
