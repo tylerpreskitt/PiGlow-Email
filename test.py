@@ -1,4 +1,4 @@
-import email.feedparser
+import feedparser
 from piglow import PiGlow
 
 piglow = PiGlow()
