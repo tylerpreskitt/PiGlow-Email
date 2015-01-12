@@ -12,5 +12,5 @@ ledbrightness = 20
 piglow.all(0)
 
 newemails = int(feedparser.parse("https://" + USERNAME + ":" + PASSWORD + "@mail.google.com/gmail/feed/atom")["feed"]["fullcount"])
-if newmail > 0:
+if newmails > 0:
   piglow.all(ledbrightness)
